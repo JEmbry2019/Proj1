@@ -1,0 +1,74 @@
+
+
+body {
+
+    background-color: aquamarine;
+
+
+    }
+
+
+    .container {
+        background-color: azure;
+        color:red;
+        width: 70%;
+        margin: 0 auto;
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .item {
+        color: white;
+        padding: 15px;
+        margin: 5px;	
+        background: #3db5da;
+        border-radius: 3px;
+    }
+
+    .item-1 {
+        flex-grow: 1;
+        }
+
+    .item-2 {
+        flex-grow: 2;
+        }
+
+    .item-3 {
+            flex-grow: 1;
+            }
+
+    .item-4 {
+           flex-grow: 2;
+            }
+
+    .item-5 {
+            flex-grow: 1;
+            }
+
+    .item-6 {
+            flex-grow: 2;
+            }
+
+
+ @media only screen and (max-width: 600px) {
+                body {
+                  background-color:rebeccapurple;
+                }
+
+                .container {
+                    background-color: azure;
+                    color:red;
+                    width: 70%;
+                    margin: 0 auto;
+            
+                    display: flex;
+                    flex-direction: column;
+            
+                }
+
+
+
+
+              }

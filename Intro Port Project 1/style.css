@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+
+body {
+
+	/*This is the background image*/
+	
+	background-image: url('img/pexels-photo-1343325a.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-color: lightblue;
+	
+
+	}
+
+
+
+.header {
+	/*background-color: rgb(119, 205, 231);*/
+	color: blue;
+	opacity: 0.50;
+	filter: alpha(opacity=5); /* For IE8 and earlier */
+	}
+
+	
+
+.logo{
+	color: rgb(20, 220, 47);
+}	
+
+
+.nav {
+	
+	color: blue;
+	
+	display: flex;
+	flex-direction: column;
+	/*flex-direction: column;*/ 
+
+	}
+
+	 	  
+.nav a:hover {
+		background-color: #111111;
+
+
+}
+
+.container {
+	
+	color: red;
+	}
+
+	.item {
+		color: #fff;
+		padding: 15px;
+		margin: 5px;	
+		background: #3db5da;
+		border-radius: 3px;
+	}
+
+	/*Media Tablet and Smaller*/
+	@media only screen and (min-width: 600px) {
+
+
+		.nav {
+	
+	color: red;
+	
+	display: flex;
+	flex-direction: row;
+	/*flex-direction: column;*/ 
+
+	}
+					}
