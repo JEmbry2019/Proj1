@@ -32,9 +32,9 @@ body {
 
 
 .nav {
-	
+
 	color: blue;
-	
+	list-style: none;
 	display: flex;
 	flex-direction: column;
 	/*flex-direction: column;*/ 
@@ -66,12 +66,13 @@ body {
 
 
 		.nav {
-	
+	list-style: none;
 	color: red;
 	
 	display: flex;
 	flex-direction: row;
 	/*flex-direction: column;*/ 
+
 
 	}
 					}
